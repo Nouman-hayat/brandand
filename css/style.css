@@ -1,0 +1,149 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+#header .navbar {
+	align-items: center;
+}
+#header .navbar-brand {
+	width: 150px;
+}
+#header .navbar-brand img {
+	width: 100%;
+}
+#header span {
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 20px;
+	color: black;
+}
+#header .info {
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: 20px;
+	color: black;
+}
+#header i {
+	font-size: 18px;
+	color: black;
+}
+#header .navbar-nav-icons {
+	display: flex;
+	list-style: none;
+	margin-top: 15px;
+}
+#header .navbar-nav-icons li {
+	margin: 0 10px;
+}
+@media (min-width: 1199px) {
+	#header .navbar-nav-icons {
+		display: none;
+	}
+}
+
+.hero-inner-wrapper {
+	display: flex;
+	align-items: center;
+	margin-top: 50px;
+}
+.hero-inner-wrapper h1 {
+	font-size: 100px;
+	font-weight: 600;
+}
+.hero-slider-wrapper {
+	width: 400px;
+    
+}
+.hero-section-inner img {
+	width: 100%;
+}
+.owl-prev {
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+}
+.owl-prev span,
+.owl-next span {
+	font-size: 40px;
+    
+}
+.owl-prev span:hover {
+	background-color: unset;
+}
+.owl-next {
+	position: absolute;
+	right: -40px;
+	top: 50%;
+	transform: translate(0, -50%);
+	-webkit-transform: translate(0, -50%);
+	-moz-transform: translate(0, -50%);
+	-ms-transform: translate(0, -50%);
+	-o-transform: translate(0, -50%);
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.hero-text {
+	margin: 50px 0;
+}
+.hero-text p {
+	text-align: justify;
+	font-weight: 700;
+	font-size: 15px;
+
+	color: black;
+}
+.hero-description {
+	display: flex;
+	margin-right: 70px;
+}
+.description-left {
+	margin-right: 20px;
+}
+.description-right {
+	margin-left: 20px;
+}
+.description-left p,
+.description-right p {
+	text-align: justify;
+	font-weight: 700;
+	font-size: 14px;
+
+	color: black;
+}
+@media (max-width: 1070px) {
+	.hero-inner-wrapper {
+	flex-direction: column;
+}
+.hero-right{
+    margin-top: 30px;
+}
+
+}
+@media (max-width: 500px) {
+	
+.hero-slider-wrapper {
+	width: 200px;
+    
+}
+.description-left {
+	margin-right: 15px;
+}
+.description-right {
+	margin-left: 15px;
+}
+.hero-description {
+	
+	margin-right: 0px;
+}
+#header .navbar-brand {
+	width: 120px;
+}
+}
